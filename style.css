@@ -1,0 +1,91 @@
+/* general */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #fff;
+    padding: 0px 70px;
+}
+/* header */
+.lujo__header {
+    height: 160px;
+    padding: 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.lujo__header_logo {
+    width: 90px;
+}
+.lujo__header_logo img {
+    object-fit: contain;
+}
+.lujo__header_menu{
+    display: flex;
+    margin-bottom: 30px;
+}
+.lujo__header_menu--nav{
+    display: flex;
+    list-style: none;
+}
+.lujo__header_menu--nav-list{
+    margin-right: 16px;
+    padding: 8px 16px;
+}
+.lujo__header_menu--search{
+    border:none
+}
+
+/* main */
+.lujo__main{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(src/Hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.lujo__main_container{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lujo__main_container-title{
+    font-size: 50px;
+}
+.lujo__main_container-paragraph{
+    font-size: 11px;
+    line-height: 20px;
+    margin-top: 30px;
+    padding: 0px 60px;
+    text-align: center;
+}
+.lujo__main_container-button{
+    margin-top: 30px;
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+}
+
+/* section */
+.lujo__body{
+    
+}
+
+
+
+
+
+
+
+#select{
+    background-color: black;
+    color: white;
+}
